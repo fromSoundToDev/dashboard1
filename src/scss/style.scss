@@ -1,0 +1,16 @@
+// Import all of Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Import all of scss subfiles
+@import "./base/reset";
+@import "./base/typography";
+@import "./outils/mixing";
+@import "./outils/variables";
+@import "./layouts/header";
+@import "./layouts/grid";
+@import "./layouts/sidebar";
+
+body{
+    height: 100vh;
+}
+

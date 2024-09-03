@@ -1,0 +1,21 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 100px 4fr;
+    grid-template-areas:   
+"M H"
+"M C"
+
+    ;
+
+} 
+
+.header{
+    grid-area: H;
+}
+.menu{
+    grid-area: M;
+}
+.main{
+    grid-area: C;
+}

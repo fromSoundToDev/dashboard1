@@ -1,0 +1,55 @@
+@mixin text-template($font,$fontFamily,$lineHeight,$letter,$color,$fontSize){
+ font-family:  font;   
+ font-size: $fontSize;
+ font-weight: $lineHeight;
+ line-height: $lineHeight;
+ letter-spacing: $letter;
+ color: $color;
+}
+
+@mixin side-menu-icon($color){
+    width: 12px;
+    height: 16px;
+    top: 0px;
+    left: 2px;
+    color: $color;
+}
+
+@mixin icon-template(){
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px;
+    gap: 8px;
+}
+
+@mixin summary-card-price{
+    font-family: circular std;
+    font-size: 19x;
+    line-height: 33.25px;
+    font-weight: 450px;
+    color: #232D42;
+    ;
+}
+
+@mixin summary-card-icon{
+    width: 28.68px;
+    top: 67.45px;
+    left: 50.43px;
+    border: 2px solid #ADB5BD;
+    transform: rotateX('48deg');
+}
+
+@mixin btn-template($btnWidth,$btnColor,$btnHeight){
+    width: $btnWidth;
+    height: $btnHeight;
+    background-color: $btnColor;
+    border-radius: 8px;
+}
+
+@mixin btn-radio-template{
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border: 1px solid #000AFF;
+}
