@@ -2,19 +2,72 @@
 @import "../outils/variables";
 
 .header{
+
     background-color: $generalBgColor;
     border-bottom: 1px solid $borderColor;
     padding :10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 
     .header-content{
         display:flex;
+        align-items:center;
         justify-content : space-between;
         height:50px;
         width:1064px;
         align-items: center;
         
+
+        .greating{
+            font-family: product sans;
+            font-weight: 700;
+            font-size:32px;
+            line-height : 29.28px;
+        }
+        
         .search-picture{
-            
+            display:flex;
+            justify-content: space-between;
+            align-items:center;
+            width:370px;
+            height:50px;
+            .search-bar{
+                display:flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 5px 18px;
+                width: 266px;
+                height: 50px;
+                border-radius: 25px ;
+                border: 2px solid #D1D1D1;
+                opacity: 0px;
+
+                
+
+                .search-icon{
+                    width: 13px;
+                    height: 13px;
+                    top: 18px;
+                    left: 918px;
+                    color:#C5C7CD;
+                    }
+
+                .search-element{
+                    width:200px;
+                    height:37px;
+                    border:none;
+                    outline:none;
+                }
+            }
+
+            .profile-picture{
+                width: 50px;
+                height:50px;
+               border-radius: 50%;
+            }
+
+
         }
 
     }
