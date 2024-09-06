@@ -1,10 +1,11 @@
 
 @import "../outils/variables";
-
+@import "../outils/mixin";
 .header{
 
     background-color: $generalBgColor;
     border-bottom: 1px solid $borderColor;
+    font-family: Product Sans;
     padding :10px;
     display:flex;
     justify-content:center;

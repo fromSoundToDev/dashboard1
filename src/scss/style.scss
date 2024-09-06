@@ -4,13 +4,22 @@
 // Import all of scss subfiles
 @import "./base/reset";
 @import "./base/typography";
-@import "./outils/mixing";
+@import "./outils/mixin";
 @import "./outils/variables";
 @import "./layouts/header";
 @import "./layouts/grid";
 @import "./layouts/sidebar";
+@import "./component/totalSales";
+@import "./layouts/content";
+@import "./component/button";
 
 body{
     height: 100vh;
 }
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../scss/vendors/font/inter/Inter-Medium.ttf');
+  }
+  
 

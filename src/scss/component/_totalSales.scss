@@ -1,0 +1,65 @@
+.card-container{
+    height: 100px;
+    width:950px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    
+    .card{
+        height: 100px;
+        width: 200px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        border: radius 8px;
+        border: none;
+        box-shadow: 0px 10px 30px 0px #1126920D;
+        
+        .card-icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 68px;
+            height: 68px;
+            border: 2px solid #ADB5BD;
+            border-radius: 50%;
+            transform: rotate(48deg);
+           
+
+
+
+            .fa-solid{
+                font-size: 23.68px;
+                color:#ADB5BD;
+                
+
+            }
+        }
+
+        .sales-element{
+            display: flex;
+            flex-direction: column;
+            .sales{
+                //will be change with @mixin
+                font-family:regular inter ;
+                font-size:16px ;
+                line-height:28px ;
+                font-weight: 400;
+                color: #8A92A6;
+            }
+            .price{
+                //will be change with @mixin
+                font-family:regular inter ;
+                font-size:19px ;
+                line-height:33.25px ;
+                font-weight: 400;
+                color: #232D42;
+            }
+
+          
+    }
+}
+}
