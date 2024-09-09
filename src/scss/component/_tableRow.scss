@@ -1,0 +1,27 @@
+
+
+.table{
+    width:920px;
+    margin-top:30px;
+
+    thead{
+    height:50px;
+    width:920px;
+    }
+
+    .profile-details{
+        display: flex ;
+        flex-direction:row;
+        align-items: center;
+        .row-profile-picture{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+        .mail-name-box{
+            display: inline-block;
+        }
+    }
+
+}
